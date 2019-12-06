@@ -9,7 +9,29 @@
   },
   "dependencies": {
     "next": "9.1.4",
-    "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "color": "^3.1.2",
+    "i18next": "^17.0.18",
+    "i18next-xhr-backend": "^3.2.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "locale": "^0.1.0",
+    "lodash": "^4.17.15",
+    "nookies": "^2.0.8",
+    "react-i18next": "^9.0.10",
+    "react-visibility-sensor": "^5.1.1",
+    "styled-components": "^4.4.1",
+    "styled-media-query": "^2.1.2",
+    "styled-reset": "^4.0.3",
+    "swr": "^0.1.7"
+  },
+  "devDependencies": {
+    "@types/color": "^3.0.0",
+    "@types/node": "^12.12.6",
+    "@types/react": "^16.9.11",
+    "@types/styled-components": "^4.1.21",
+    "babel-plugin-styled-components": "^1.10.6",
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4"
   }
 }
