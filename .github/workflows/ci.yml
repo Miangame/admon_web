@@ -8,7 +8,6 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v1
-      continue-on-error: true
       - name: Push to server
         uses: appleboy/ssh-action@master
         with:
