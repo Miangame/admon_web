@@ -7,8 +7,8 @@ jobs:
     if: github.ref == 'refs/heads/master'
     runs-on: [ubuntu-latest]
     steps:
-      continue-on-error: true
       - uses: actions/checkout@v1
+      continue-on-error: true
       - name: Push to server
         uses: appleboy/ssh-action@master
         with:
