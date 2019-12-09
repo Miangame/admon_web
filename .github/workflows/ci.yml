@@ -6,7 +6,7 @@ jobs:
   deploy:
     if: github.ref == 'refs/heads/master'
     runs-on: [ubuntu-latest]
-    steps:
+    steps.continue-on-error:
       - uses: actions/checkout@v1
       - name: Push to server
         uses: appleboy/ssh-action@master
