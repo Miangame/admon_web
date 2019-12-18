@@ -7,18 +7,52 @@
     "build": "next build",
     "start": "next start"
   },
+  "babel": {
+    "env": {
+      "development": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      },
+      "production": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": false
+            }
+          ]
+        ]
+      }
+    }
+  },
   "dependencies": {
-    "next": "9.1.4",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "classnames": "^2.2.6",
     "color": "^3.1.2",
     "i18next": "^17.0.18",
     "i18next-xhr-backend": "^3.2.0",
     "isomorphic-unfetch": "^3.0.0",
     "locale": "^0.1.0",
     "lodash": "^4.17.15",
+    "next": "9.1.4",
     "nookies": "^2.0.8",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-i18next": "^9.0.10",
+    "react-materialize": "^3.5.7",
     "react-visibility-sensor": "^5.1.1",
     "styled-components": "^4.4.1",
     "styled-media-query": "^2.1.2",
