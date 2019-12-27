@@ -61,7 +61,7 @@ const Image = styled.img`
   width: 25px;
   height: 25px;
 
-  ${media.greaterThan('md')`
+  ${media.greaterThan('auxMax')`
     width: 40px;
     height: 40px;
   `}
