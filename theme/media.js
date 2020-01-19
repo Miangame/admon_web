@@ -6,7 +6,7 @@ const media = generateMedia({
   md: '600px',
   lg: '992px',
   auxMin: '400px',
-  auxMax: '700px',
+  auxMax: '710px',
 })
 
 export default media
